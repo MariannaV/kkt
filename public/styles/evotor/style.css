@@ -1,0 +1,27 @@
+.hidden {
+    display: none !important;
+}
+
+.new-article-aside>p {
+    margin-top: 0;
+    font-size: 1.25em;
+    /* font-family: Georgia, serif; */
+}
+
+/* font-size: 2.25em; */
+
+/* font-family: 'museo_sans_cyrl500', Arial, serif; */
+
+@media screen and (max-width: 767px) and (min-width: 0px) {
+    .new-article-aside>p {
+        font-size: 1em;
+        /* font-size: 1.5em; */
+    }
+}
+
+.noselect {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
